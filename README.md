@@ -19,7 +19,7 @@ All inference runs locally via **vLLM** — no cloud LLM API is required.
 
 ---
 
-## Installation
+## Installation- The app can run on a machine with at least 48GB GPU!
 
 ### Prerequisites
 
