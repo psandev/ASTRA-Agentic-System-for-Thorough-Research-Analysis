@@ -25,7 +25,7 @@ All inference runs locally via **vLLM** — no cloud LLM API is required.
 
 | Component | Requirement |
 |-----------|-------------|
-| GPU | NVIDIA RTX 3090+ (24 GB VRAM minimum; RTX 4090 recommended) |
+| GPU | NVIDIA RTX 6000 48GB VRAM |
 | RAM | 64 GB+ system RAM |
 | CPU | 8+ cores |
 | Disk | ~80 GB (models + index data) |
