@@ -1,0 +1,87 @@
+# =============================================================================
+# ASTRA — Python Requirements
+# Hardware: RTX 4090 | 128GB RAM | 18-core CPU
+# Python: 3.11
+# =============================================================================
+
+# --- Core LangChain / LangGraph / LangSmith ---
+langchain>=0.3.14
+langchain-core>=0.3.28
+langchain-community>=0.3.14
+langchain-openai>=0.2.14
+langgraph>=0.2.60
+langsmith>=0.2.6
+
+# --- vLLM server + OpenAI-compatible client ---
+vllm>=0.6.0
+openai>=1.58.1
+
+# --- Web Search & Scraping ---
+tavily-python>=0.5.0
+ddgs>=0.7.0
+httpx>=0.28.1
+aiohttp>=3.11.11
+requests>=2.32.3
+beautifulsoup4>=4.12.3
+lxml>=5.3.0
+
+# --- Academic Search APIs ---
+arxiv>=2.1.3
+semanticscholar>=0.8.4
+wikipedia>=1.4.0
+
+# --- Document Processing ---
+pymupdf>=1.25.1
+docling>=2.15.0
+
+# --- ML / Embeddings & Reranking ---
+sentence-transformers>=3.3.1
+FlagEmbedding>=1.3.3
+torch>=2.5.1
+transformers>=4.48.0
+
+# --- Vector Stores & Retrieval ---
+faiss-cpu>=1.9.0
+rank-bm25>=0.2.2
+chromadb>=0.6.3
+
+# --- Knowledge Graph ---
+lightrag-hku>=1.3.6
+
+# --- Report Generation ---
+markdown2>=2.5.1
+python-docx>=1.1.2
+plotly>=5.24.1
+matplotlib>=3.10.0
+seaborn>=0.13.2
+kaleido>=0.2.1
+weasyprint>=63.1
+
+# --- Diagram Generation ---
+graphviz>=0.20.3
+
+# --- Quality Evaluation ---
+deepeval>=2.1.6
+
+# --- Gradio UI ---
+gradio>=5.10.0
+
+# --- Data Processing ---
+pandas>=2.2.3
+numpy>=2.2.1
+scipy>=1.15.1
+
+# --- Async & Concurrency ---
+anyio>=4.8.0
+
+# --- Configuration ---
+python-dotenv>=1.0.1
+pydantic>=2.10.5
+pydantic-settings>=2.7.1
+
+# --- Utilities ---
+tenacity>=9.0.0
+rich>=13.9.4
+loguru>=0.7.3
+tqdm>=4.67.1
+ujson>=5.10.0
